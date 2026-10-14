@@ -1,5 +1,11 @@
 # UAV/FANET RL routing 문헌 행렬과 SwitchGLOBE latency 적용 분석
 
+> **대체됨 (2026-10-14).** 이 문서는 2026-09-05 시점 45편 스냅샷이다. 라이브 DB는
+> 현재 85편이며, 이 45편만으로 도출한 "포화/공백" 판단은 틀렸다
+> (비RL 계열 41%, harmonic potential field 3편, NE bound 보장 1편 등 누락).
+> 현재 기준 분석은 `literature_census_2026-10-14.md`를 사용하고, 이 문서는
+> latency 관련 논문 카드와 당시 기록으로만 참조한다.
+
 ## 1. 조사 범위
 
 - 기준 데이터베이스: [UAV/FANET RL 데일리 논문 분석](https://app.notion.com/p/0a291669e68449f6918ddca01538d040?v=65eabce9cdf745be98bf89e9c7ff1d7e)
